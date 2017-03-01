@@ -91,11 +91,3 @@ This is the defacto image. If you are unsure about what your needs are, you prob
 ## `composer/composer:php5`
 
 This is made to run Composer through PHP 5, rather then the default of PHP 7.
-
-## `composer/composer:alpine`
-
-This image is based on the popular [Alpine Linux project](http://alpinelinux.org/), available in [the alpine official image](https://hub.docker.com/_/alpine). Alpine Linux is much smaller than most distribution base images (~5MB), and thus leads to much slimmer images in general.
-
-## `composer/composer:php5-alpine`
-
-This is made to run Composer through PHP 5, rather then the default of PHP 7, through the Alpine container.
