@@ -1,7 +1,7 @@
 # Composer Docker Container
 # Base Dockerfile: composer/base
 FROM php:7-cli
-MAINTAINER Rob Loach <robloach@gmail.com>
+MAINTAINER Droptica <info@droptica.com>
 
 # Packages
 RUN apt-get update && \

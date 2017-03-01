@@ -1,6 +1,6 @@
 # Composer Docker Container
 FROM composer/composer:base-php5
-MAINTAINER Rob Loach <robloach@gmail.com>
+MAINTAINER Droptica <info@droptica.com>
 
 ENV COMPOSER_VERSION 1.2.4
 
