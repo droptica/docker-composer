@@ -1,9 +1,9 @@
 # Supported tags and respective `Dockerfile` links
 
-- `1.0`
-- `1.0-php5`
-- `1.1`, `1`, `latest`
-- `1.1-php5`, `1-php5`, `php5`
+- `1.0`, `1.0-php5`,
+- `1.1`, `1.1-php5`,
+- `1.2`, `1.2-php5`,
+- `1.3`, `1.3-php5`, `latest`
 - `master`
 - `master-php5`
 
