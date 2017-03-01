@@ -13,21 +13,19 @@ Composer is a tool for dependency management in PHP. It allows you to declare th
 
 > [wikipedia.org/wiki/Composer (software)](https://en.wikipedia.org/wiki/Composer_(software))
 
-![Composer Logo](https://getcomposer.org/img/logo-composer-transparent.png "Composer")
-
 # How to use this image.
 
 ## Installation / Usage
 
-1. Install the `composer/composer` container:
+1. Install the `droptica/composer` container:
 
     ``` sh
-    $ docker pull composer/composer
+    $ docker pull droptica/composer
     ```
 
-  Alternatively, pull a specific version of `composer/composer`:
+  Alternatively, pull a specific version of `droptica/composer`:
     ``` sh
-    $ docker pull composer/composer:1.1
+    $ docker pull droptica/composer:1.1
     ```
 
 2. Create a composer.json defining your dependencies. Note that this example is
@@ -46,15 +44,15 @@ themselves. To create libraries/packages please read the
 3. Run Composer through the Composer container:
 
     ``` sh
-    $ docker run --rm -v $(pwd):/app composer/composer install
+    $ docker run --rm -v $(pwd):/app droptica/composer install
     ```
   Or run using a specific version of Composer:
     ``` sh
-    $ docker run --rm -v $(pwd):/app composer/composer:1.1 install
+    $ docker run --rm -v $(pwd):/app droptica/composer:1.1 install
     ```
   If working with packages installed via git ssh the local .ssh directory shall be mapped into the container:
     ```sh
-    $ docker run --rm -v $(pwd):/app -v ~/.ssh:/root/.ssh composer/composer install
+    $ docker run --rm -v $(pwd):/app -v ~/.ssh:/root/.ssh droptica/composer install
     ```
 
 4. Add optional `composer` command to the host (tested on OS X El Capitan with docker-machine)
