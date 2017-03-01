@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/droptica/docker-composer.svg?branch=master)](https://travis-ci.org/droptica/docker-composer)
+
 # Supported tags and respective `Dockerfile` links
 
 - `1.0`, `1.0-php5`,
