@@ -54,8 +54,6 @@ for version in "${versions[@]}"; do
 	(
 		set -x
 		writeFiles $fullVersion
-		writeFiles $fullVersion 'alpine'
 		writeFiles $fullVersion 'php5'
-		writeFiles $fullVersion 'php5-alpine'
 	)
 done
